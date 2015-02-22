@@ -8,6 +8,23 @@
 	<script type="text/javascript" src="less.js"></script>
 	<script type="text/javascript" src="/Users/Rogue/TheGoods/Dojo/Library/jQuery.js"></script>
 	<script type="text/javascript">
+	$(document).ready(function() {
+
+		for (var i = 0; i <= 157; i++) {
+			$('#li-'+i).hide();
+		}
+
+		x = 0;
+
+		setInterval(function(){
+			$('#li-'+x).fadeIn(2000);
+			x++;
+			if (x == 126 || x == 127 || x == 128 || x == 129) {
+				$('#li-'+x).css('display', 'inline-block');
+			}
+		}, 10);
+
+	});
 	</script>
 </head>
 <body>
@@ -42,228 +59,228 @@
 		<li>7</li>
 	</ul>
 	<ul class="block-1">
-		<li>H</li>
-		<li>Li</li>
-		<li>Na</li>
-		<li>K</li>
-		<li>Rb</li>
-		<li>Cs</li>
-		<li>Fr</li>
+		<li id="li-0">H</li>
+		<li id="li-1">Li</li>
+		<li id="li-2">Na</li>
+		<li id="li-3">K</li>
+		<li id="li-4">Rb</li>
+		<li id="li-5">Cs</li>
+		<li id="li-6">Fr</li>
 	</ul>
 	<ul class="block-1">
-		<li class="empty"></li>
-		<li>Be</li>
-		<li>Mg</li>
-		<li>Ca</li>
-		<li>Sr</li>
-		<li>Ba</li>
-		<li>Ra</li>
+		<li class="empty" id="li-7"></li>
+		<li id="li-8">Be</li>
+		<li id="li-9">Mg</li>
+		<li id="li-10">Ca</li>
+		<li id="li-11">Sr</li>
+		<li id="li-12">Ba</li>
+		<li id="li-13">Ra</li>
 	</ul>
 	<ul class="block-2 broke">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Sc</li>
-		<li>Y</li>
-		<li>Lu</li>
-		<li>Lr</li>
+		<li class="empty" id="li-14"></li>
+		<li class="empty" id="li-15"></li>
+		<li class="empty" id="li-16"></li>
+		<li id="li-17">Sc</li>
+		<li id="li-18">Y</li>
+		<li id="li-19">Lu</li>
+		<li id="li-20">Lr</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Ti</li>
-		<li>Zr</li>
-		<li>Hf</li>
-		<li>Rf</li>
+		<li class="empty" id="li-21"></li>
+		<li class="empty" id="li-22"></li>
+		<li class="empty" id="li-23"></li>
+		<li id="li-24">Ti</li>
+		<li id="li-25">Zr</li>
+		<li id="li-26">Hf</li>
+		<li id="li-27">Rf</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>V</li>
-		<li>Nb</li>
-		<li>Ta</li>
-		<li>Db</li>
+		<li class="empty" id="li-28"></li>
+		<li class="empty" id="li-29"></li>
+		<li class="empty" id="li-30"></li>
+		<li id="li-31">V</li>
+		<li id="li-32">Nb</li>
+		<li id="li-33">Ta</li>
+		<li id="li-34">Db</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Cr</li>
-		<li>Mo</li>
-		<li>W</li>
-		<li>Sg</li>
+		<li class="empty" id="li-35"></li>
+		<li class="empty" id="li-36"></li>
+		<li class="empty" id="li-37"></li>
+		<li id="li-38">Cr</li>
+		<li id="li-39">Mo</li>
+		<li id="li-40">W</li>
+		<li id="li-41">Sg</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Mn</li>
-		<li>Tc</li>
-		<li>Re</li>
-		<li>Bh</li>
+		<li class="empty" id="li-42"></li>
+		<li class="empty" id="li-43"></li>
+		<li class="empty" id="li-44"></li>
+		<li id="li-45">Mn</li>
+		<li id="li-46">Tc</li>
+		<li id="li-47">Re</li>
+		<li id="li-48">Bh</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Fe</li>
-		<li>Ru</li>
-		<li>Os</li>
-		<li>Hs</li>
+		<li class="empty" id="li-49"></li>
+		<li class="empty" id="li-50"></li>
+		<li class="empty" id="li-51"></li>
+		<li id="li-52">Fe</li>
+		<li id="li-53">Ru</li>
+		<li id="li-54">Os</li>
+		<li id="li-55">Hs</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Co</li>
-		<li>Rh</li>
-		<li>Ir</li>
-		<li>Mt</li>
+		<li class="empty" id="li-56"></li>
+		<li class="empty" id="li-57"></li>
+		<li class="empty" id="li-58"></li>
+		<li id="li-59">Co</li>
+		<li id="li-60">Rh</li>
+		<li id="li-61">Ir</li>
+		<li id="li-62">Mt</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Ni</li>
-		<li>Pd</li>
-		<li>Pt</li>
-		<li>Ds</li>
+		<li class="empty" id="li-63"></li>
+		<li class="empty" id="li-64"></li>
+		<li class="empty" id="li-65"></li>
+		<li id="li-66">Ni</li>
+		<li id="li-67">Pd</li>
+		<li id="li-68">Pt</li>
+		<li id="li-69">Ds</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Cu</li>
-		<li>Ag</li>
-		<li>Au</li>
-		<li>Rg</li>
+		<li class="empty" id="li-70"></li>
+		<li class="empty" id="li-71"></li>
+		<li class="empty" id="li-72"></li>
+		<li id="li-73">Cu</li>
+		<li id="li-74">Ag</li>
+		<li id="li-75">Au</li>
+		<li id="li-76">Rg</li>
 	</ul>
 	<ul class="block-2">
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li class="empty"></li>
-		<li>Zn</li>
-		<li>Cd</li>
-		<li>Hg</li>
-		<li>Cn</li>
+		<li class="empty" id="li-77"></li>
+		<li class="empty" id="li-78"></li>
+		<li class="empty" id="li-79"></li>
+		<li id="li-80">Zn</li>
+		<li id="li-81">Cd</li>
+		<li id="li-82">Hg</li>
+		<li id="li-83">Cn</li>
 	</ul>
 	<ul class="block-3">
-		<li class="empty"></li>
-		<li>B</li>
-		<li>Al</li>
-		<li>Ga</li>
-		<li>In</li>
-		<li>Ti</li>
-		<li>Uut</li>
+		<li class="empty" id="li-84"></li>
+		<li id="li-85">B</li>
+		<li id="li-86">Al</li>
+		<li id="li-87">Ga</li>
+		<li id="li-88">In</li>
+		<li id="li-89">Ti</li>
+		<li id="li-90">Uut</li>
 	</ul>
 	<ul class="block-3">
-		<li class="empty"></li>
-		<li>C</li>
-		<li>Si</li>
-		<li>Ge</li>
-		<li>Sn</li>
-		<li>Pb</li>
-		<li>Fl</li>
+		<li class="empty" id="li-91"></li>
+		<li id="li-92">C</li>
+		<li id="li-93">Si</li>
+		<li id="li-94">Ge</li>
+		<li id="li-95">Sn</li>
+		<li id="li-96">Pb</li>
+		<li id="li-97">Fl</li>
 	</ul>
 	<ul class="block-3">
-		<li class="empty"></li>
-		<li>N</li>
-		<li>P</li>
-		<li>As</li>
-		<li>Sb</li>
-		<li>Bi</li>
-		<li>Uup</li>
+		<li class="empty" id="li-98"></li>
+		<li id="li-99">N</li>
+		<li id="li-100">P</li>
+		<li id="li-101">As</li>
+		<li id="li-102">Sb</li>
+		<li id="li-103">Bi</li>
+		<li id="li-104">Uup</li>
 	</ul>
 	<ul class="block-3">
-		<li class="empty"></li>
-		<li>O</li>
-		<li>S</li>
-		<li>Se</li>
-		<li>Te</li>
-		<li>Po</li>
-		<li>Lv</li>
+		<li class="empty" id="li-105"></li>
+		<li id="li-106">O</li>
+		<li id="li-107">S</li>
+		<li id="li-108">Se</li>
+		<li id="li-109">Te</li>
+		<li id="li-110">Po</li>
+		<li id="li-111">Lv</li>
 	</ul>
 	<ul class="block-3">
-		<li class="empty"></li>
-		<li>F</li>
-		<li>Cl</li>
-		<li>Br</li>
-		<li>I</li>
-		<li>At</li>
-		<li>Uus</li>
+		<li class="empty" id="li-112"></li>
+		<li id="li-113">F</li>
+		<li id="li-114">Cl</li>
+		<li id="li-115">Br</li>
+		<li id="li-116">I</li>
+		<li id="li-117">At</li>
+		<li id="li-118">Uus</li>
 	</ul>
 	<ul class="block-3">
-		<li>He</li>
-		<li>Ne</li>
-		<li>Ar</li>
-		<li>Kr</li>
-		<li>Xe</li>
-		<li>Rn</li>
-		<li>Uuo</li>
+		<li id="li-119">He</li>
+		<li id="li-120">Ne</li>
+		<li id="li-121">Ar</li>
+		<li id="li-122">Kr</li>
+		<li id="li-123">Xe</li>
+		<li id="li-124">Rn</li>
+		<li id="li-125">Uuo</li>
 	</ul>
 	<div>
-		<p>*Lanthanoids</p>
-		<p class="star">*</p>
-		<p>**Actinoids</p>
-		<p class="star">**</p>
+		<p id="li-126">*Lanthanoids</p>
+		<p class="star" id="li-127">*</p>
+		<p id="li-128">**Actinoids</p>
+		<p class="star" id="li-129">**</p>
 	</div>
 	<ul class="block-4">
-		<li>La</li>
-		<li>Ac</li>
+		<li id="li-130">La</li>
+		<li id="li-131">Ac</li>
 	</ul>
 	<ul class="block-4">
-		<li>Ce</li>
-		<li>Th</li>
+		<li id="li-132">Ce</li>
+		<li id="li-133">Th</li>
 	</ul>
 	<ul class="block-4">
-		<li>Pr</li>
-		<li>Pa</li>
+		<li id="li-134">Pr</li>
+		<li id="li-135">Pa</li>
 	</ul>
 	<ul class="block-4">
-		<li>Nd</li>
-		<li>U</li>
+		<li id="li-136">Nd</li>
+		<li id="li-137">U</li>
 	</ul>
 	<ul class="block-4">
-		<li>Pm</li>
-		<li>Np</li>
+		<li id="li-138">Pm</li>
+		<li id="li-139">Np</li>
 	</ul>
 	<ul class="block-4">
-		<li>Sm</li>
-		<li>Pu</li>
+		<li id="li-140">Sm</li>
+		<li id="li-141">Pu</li>
 	</ul>
 	<ul class="block-4">
-		<li>Eu</li>
-		<li>Am</li>
+		<li id="li-142">Eu</li>
+		<li id="li-143">Am</li>
 	</ul>
 	<ul class="block-4">
-		<li>Gd</li>
-		<li>Cm</li>
+		<li id="li-144">Gd</li>
+		<li id="li-145">Cm</li>
 	</ul>
 	<ul class="block-4">
-		<li>Tb</li>
-		<li>Bk</li>
+		<li id="li-146">Tb</li>
+		<li id="li-147">Bk</li>
 	</ul>
 	<ul class="block-4">
-		<li>Dy</li>
-		<li>Cf</li>
+		<li id="li-148">Dy</li>
+		<li id="li-149">Cf</li>
 	</ul>
 	<ul class="block-4">
-		<li>Ho</li>
-		<li>Es</li>
+		<li id="li-150">Ho</li>
+		<li id="li-151">Es</li>
 	</ul>
 	<ul class="block-4">
-		<li>Er</li>
-		<li>Fm</li>
+		<li id="li-152">Er</li>
+		<li id="li-153">Fm</li>
 	</ul>
 	<ul class="block-4">
-		<li>Tm</li>
-		<li>Md</li>
+		<li id="li-154">Tm</li>
+		<li id="li-155">Md</li>
 	</ul>
 	<ul class="block-4">
-		<li>Yb</li>
-		<li>No</li>
+		<li id="li-156">Yb</li>
+		<li id="li-157">No</li>
 	</ul>
 
 </body>
